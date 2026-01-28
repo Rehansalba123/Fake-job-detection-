@@ -154,16 +154,7 @@ API Documentation: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ---
 
-##  Team
 
-**CS 5821 Machine Learning - Group 4**
-
-- **Khang Nguyen** - Base Web Application
-- **Jin Park** - Parser Integration
-- **Iskandar Kholmatov** - ML Model & API Deployment
-- **Ben Morin** - Data Analysis
-- **David Harrison** - Data Analysis
-- **John Yoshida** - Data Analysis
 
 ---
 
