@@ -1,4 +1,4 @@
-# 🕵️ Fake Job Post Detective
+# Fake Job Post Detective
 
 > **An AI-powered web application that helps job seekers identify fraudulent job postings using machine learning**
 
@@ -9,7 +9,7 @@
 
 ---
 
-## 📹 Demo Video
+##  Demo Video
 
 > *Click below to watch our application in action*
 
@@ -17,21 +17,21 @@
 
 ---
 
-## 🎯 Project Overview
+##  Project Overview
 
 **Fake Job Post Detective** is a full-stack machine learning application developed for **CS 5821 Machine Learning** that detects fraudulent job postings with **97% accuracy**. The system combines advanced ensemble ML models with an intuitive web interface to protect job seekers from scams.
 
-### ✨ Key Features
+###  Key Features
 
-- 🤖 **High-Performance ML Model** - Voting ensemble (Gradient Boosting + XGBoost + LightGBM) achieving 0.9709 ROC-AUC
-- ⚡ **Real-Time Predictions** - FastAPI backend with ~200ms response time
-- 🎨 **Modern UI** - Clean, responsive interface built with React and TailwindCSS
-- 🔍 **Intelligent Parser** - Automatically extracts and formats job posting data
-- 📊 **Confidence Scoring** - Provides probability scores and explanations for each prediction
+-  **High-Performance ML Model** - Voting ensemble (Gradient Boosting + XGBoost + LightGBM) achieving 0.9709 ROC-AUC
+-  **Real-Time Predictions** - FastAPI backend with ~200ms response time
+-  **Modern UI** - Clean, responsive interface built with React and TailwindCSS
+-  **Intelligent Parser** - Automatically extracts and formats job posting data
+-  **Confidence Scoring** - Provides probability scores and explanations for each prediction
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────────┐      ┌──────────────────┐      ┌─────────────────────┐
@@ -46,7 +46,7 @@
 
 ---
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 ### Frontend
 - [Next.js](https://nextjs.org) - React framework with server-side rendering
@@ -69,27 +69,27 @@
 
 ---
 
-## 📦 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Node.js 18+ and npm/pnpm
 - Python 3.9+
 - Git
 
-### 1️⃣ Clone the Repository
+### Clone the Repository
 ```bash
 git clone https://github.com/rednaksiii/fake_job_post_detective.git
 cd fake_job_post_detective
 ```
 
-### 2️⃣ Install Frontend Dependencies
+### Install Frontend Dependencies
 ```bash
 npm install
 # or
 pnpm install
 ```
 
-### 3️⃣ Set Up Environment Variables
+###  Set Up Environment Variables
 ```bash
 cp .env.example .env
 ```
@@ -102,13 +102,13 @@ NEXTAUTH_URL="http://localhost:3000"
 API_URL="http://localhost:8000"
 ```
 
-### 4️⃣ Run Database Migrations
+###  Run Database Migrations
 ```bash
 npx prisma migrate dev
 npx prisma generate
 ```
 
-### 5️⃣ Start the Development Server
+###  Start the Development Server
 ```bash
 npm run dev
 # or
@@ -119,7 +119,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser 🎉
 
 ---
 
-## 🤖 ML Model Setup
+##  ML Model Setup
 
 ### Install Python Dependencies
 ```bash
@@ -136,7 +136,7 @@ API Documentation: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ---
 
-## 📊 Model Performance
+## Model Performance
 
 | Metric | Score |
 |--------|-------|
@@ -148,13 +148,13 @@ API Documentation: [http://localhost:8000/docs](http://localhost:8000/docs)
 *Significantly exceeds typical fraud detection benchmarks (70-80%) by 24%*
 
 ### Feature Importance
-- 🏢 **has_company_logo**: 28.4%
-- 📝 Text-derived features (TF-IDF + SVD)
-- 💼 Employment type, experience, education
+-  **has_company_logo**: 28.4%
+- Text-derived features (TF-IDF + SVD)
+-  Employment type, experience, education
 
 ---
 
-## 👥 Team
+##  Team
 
 **CS 5821 Machine Learning - Group 4**
 
@@ -167,7 +167,7 @@ API Documentation: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ---
 
-## 📄 Documentation
+##  Documentation
 
 - Project Report - Detailed technical report
 - [API Documentation](http://localhost:8000/docs) - FastAPI Swagger UI
@@ -175,7 +175,7 @@ API Documentation: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ---
 
-## 🛠️ Development Workflow
+##  Development Workflow
 
 ### Branch Strategy
 - `main` - Production-ready releases
@@ -189,7 +189,7 @@ API Documentation: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 ### Local Deployment Only
 Due to resource constraints, this project runs locally. To test:
@@ -204,13 +204,13 @@ Follow deployment guides for:
 
 ---
 
-## 📝 License
+##  License
 
 This project was created for educational purposes as part of CS 5821 Machine Learning course.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Dataset**: [Real or Fake Job Posting Prediction](https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction) by Shivam Bansal
 - **Framework**: [T3 Stack](https://create.t3.gg/) by Theo Browne
